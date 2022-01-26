@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mentalista</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="interface-mentalista">
+
+            <h1 class="page-title">Mentalista</h1>
+            <p class="page-subtitle">Tente adivinhar o número sorteado pelo site! Você possui <span>3</span> tentativas.</p><br>
+    
+            <label for="valor">Digite um número:</label>
+            <input type="number" id="valor" min="0" max="10" placeholder="0 - 10"><br>
+            <button id="botaoChute" type="submit" onclick="Chutar()">Chutar</button>
+            <a href="" id="botaoTenteNovamente">Jogue Novamente</a>
+    
+            <h2 class="resultado" id="resultado"></h2>
+
+        </div>
+
+        <div>
+            <img class="thinking" src="./assets/img/thinking.png" alt="Thinking">
+        </div>
+
+    </div>
+
+    <img class="page-logo" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" alt="Logo imersãoDev">
+    
+    <a href="https://alura.com.br/" target="_blank">
+        <img class="alura-logo" src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="Logo Alura">
+    </a>
+
+    <footer>
+        <a href="https://github.com/lucianaTSoares" target="_blank">
+            Feito com ❤ por Luciana Soares, 2021
+        </a>
+    </footer>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

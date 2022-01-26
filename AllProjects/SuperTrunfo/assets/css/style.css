@@ -1,0 +1,204 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 854px;
+    background-color: #e66eb6;
+    background-image: linear-gradient(180deg, #a75a88 0%, #49315e 50%, #265b80 100%);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+    padding: 0;
+    margin: 0;
+    font: medium "Montserrat", monospace;;
+}
+
+.page-title, h2, div, .opcoes {
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-logo {
+    width: 200px;
+    position: absolute;
+        top: 10px;
+        left: 10px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+button, .container a {
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    margin: 12px 0;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+}
+
+#btnJogar {
+    display: none;
+}
+
+#btnRefresh {
+    display: none;
+}  
+
+h2 {
+    color: white;
+}
+
+span {
+    font-weight: 700;
+}
+
+#carta-jogador, #carta-maquina {
+    width: 270px;
+    height: 408px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    border-radius: 23px;
+    border: 3px solid #000;
+}
+
+#carta-jogador img, #carta-maquina img {
+    width: 326px;
+    position: absolute;
+    top: -30px;
+    left: -31px;
+    filter: opacity(0.6);
+}
+
+.carta-title {
+    position: relative;
+    left: -69px;
+    font-size: .81em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.carta-type {
+    position: absolute;
+    bottom: 128px;
+    left: 16px;
+    font-size: .85em;
+}
+
+.opcoes {
+    position: absolute;
+    bottom: 24px;
+    left: 9px;
+    line-height: 28px;
+    text-align: left;
+    font-size: 0.85em;
+}
+
+#carta-maquina .carta-type {
+    position: absolute;
+    bottom: 127px;
+    left: 14px;
+    font-size: .85em;
+}
+
+#carta-maquina .opcoes {
+    position: absolute;
+    bottom: 25px;
+    left: 14px;
+    line-height: 0px;
+    text-align: left;
+    font-size: 0.85em;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 2rem;
+    color: white;
+    z-index: 2;
+}
+
+.carta-status input {
+    margin: 20px 10px;
+}
+
+.resultado-final {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 1rem;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: none;
+    justify-content: space-evenly;
+    background: url("https://cdn-icons-png.flaticon.com/512/4144/4144585.png") center no-repeat;
+    background-size: 10%;
+    width: 100%;
+}
+
+.wrapper img {
+
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#cartas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carta-status p {
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

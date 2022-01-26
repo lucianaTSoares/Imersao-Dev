@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    background: rgb(154,3,3);
+    background: linear-gradient(180deg, rgba(154,3,3,1) 0%, rgba(0,0,0,1) 100%);
+    background-attachment: fixed;
+    height: 97.7vh;
+}
+
+.page-title, .page-subtitle, .form-wrapper, .form-linkFilme, .form-nomeFilme, h3, .listaFilmes, #mensagemErro {
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    height: 97.6vh;
+}
+
+.page-title {
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 180px;
+    position: absolute;
+        top: 10px;
+        left: 10px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+        top: 10px;
+        right: 10px;
+}
+
+.form-wrapper {
+    margin: 0 0 15px;
+}
+
+.form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.form-wrapper button {
+    border: 0;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+    opacity: 0.8;
+}
+
+.listaFilmes {
+
+}
+
+#elementoLista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#elementoLista img {
+    margin: 10px;
+    max-height: 250px;
+}

@@ -1,0 +1,150 @@
+body {
+    background: rgb(60,77,207);
+    background: linear-gradient(360deg, rgba(60,77,207,1) 0%, rgba(21,35,140,1) 56%, rgba(9,19,91,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.page-title, .page-subtitle, label, .resultado, .recarregar, span, footer a {
+    color: #fff;
+}
+
+.container {
+    height: 98vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.interface {
+    display: flex;
+    align-items: center;
+}
+
+.interface-mentalista {
+    width: 25%;
+}
+
+.page-title {
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    margin-top: 16px;
+    line-height: 22px;
+}
+
+.page-logo {
+    width: 200px;
+    position: absolute;
+        top: 10px;
+        left: 10px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+        top: 10px;
+        right: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: .9em;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input {
+    margin: 4px 0;
+    border-radius: 5px;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    background-color: #1110;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    appearance: none;
+}
+
+input::placeholder {
+    color: #edf7ff62;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+/* Regra que retira os botões do input numerico */
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+button, #botaoTenteNovamente {
+    margin-top: 12px;
+    padding: 7px 0;
+    border-radius: 4px;
+    background-color: #36a3ff;
+    color: #fff;
+    border: solid 1px #36a3ff;
+    font-size: 0.9em;
+    font-weight: bold;
+    width: 101%;
+    text-align: center;
+    transition: .3s;
+}
+
+button:hover, #botaoTenteNovamente:hover {
+    background-color: #007bff;
+    border: solid 1px #007bff;
+}
+
+#botaoChutar {
+    display: inline-block;
+}
+
+#botaoTenteNovamente {
+    display: none;
+}
+
+.resultado {
+    margin-top: 16px;
+    line-height: 28px;
+}
+
+p span {
+    background-color: #ffffff2e;
+    border-radius: 3px;
+    padding: 0 3px;
+}
+
+h2 span {
+    font-size: .7em;
+}
+
+footer {
+    margin-left: 6px;
+    font-size: .73em;
+}
+
+@media screen and (max-width: 671px) {
+    .thinking {
+        display: none;
+    }
+
+    .container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .interface-mentalista {
+        max-width: 70%;
+        width: unset;
+    }
+
+    .page-logo {
+        width: 165px;
+    }
+}

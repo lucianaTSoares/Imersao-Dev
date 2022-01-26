@@ -1,0 +1,134 @@
+body {
+    font-family: "Montserrat", monospace;
+    background: rgb(214,78,78);
+    background: linear-gradient(128deg, rgba(214,78,78,1) 0%, rgba(238,161,119,1) 100%);
+    text-align: center;
+    height: 100vh;
+}
+
+
+/* ESTILOS APLICADOS PARA MAIS DE 1 ELEMENTO */
+
+.page-title, .page-subtitle, .title-button , label, h2{
+    color: #171F43;
+}
+
+.link-convertMoedas, footer a {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.title-button, label {
+    font-weight: 600;
+}
+
+
+/* ESTTILIZAÇÃO DOS ELEMENTOS */
+
+.container {
+    height: 95%;
+    margin: 0 auto;
+}
+
+.interface {
+    background-color: #fcebe2;
+    box-shadow: 0px 0px 15px 0px rgba(48, 21, 9, 0.25);
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+        top: 22vh;
+}
+
+/* TÍTULO */
+.page-title {
+    margin: 0 0 20px;
+    border-bottom: 1px solid;
+}
+
+/* SUBTÍTULO */
+.page-subtitle {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    max-width: 75vh;
+    line-height: 22px;
+}
+
+/* TÍTULO DOS BOTÕES */ 
+.title-button {
+    margin: 11px 0 0;
+}
+
+/* LOGO IMERSÃO DEV */
+.page-logo {
+    width: 185px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* LOGO ALURA */
+.alura-logo {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* LINK PARA O OUTRO CONVERSOR */
+.link-convertMoedas {
+    text-decoration: none;
+    transition: .5s;
+    padding: 15px;
+}
+
+/* Animação link */
+.link-convertMoedas:hover {
+    font-size: 1.1em;
+}
+
+input {
+    background-color: #d0cecc;
+    margin: 12px;
+    padding: 9px;
+    border: none;
+    border-radius: 16px;
+}
+
+button {
+    margin-top: 12px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    border: none;
+    background-color: #ff3d7b;
+    color: #ffffff;
+    transition: .3s;
+}
+
+/* Animação botões */
+button:hover {
+    background-color: #881e3f;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(92, 155, 111);
+    margin: 35px 0 5px;
+    max-width: 75vh;
+    line-height: 35px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: none;
+    outline: 0;
+}
+
+footer {
+    text-align: left;
+    font-size: .7em;
+    margin-left: 9px;
+}
